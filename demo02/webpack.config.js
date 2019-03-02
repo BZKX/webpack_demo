@@ -7,7 +7,7 @@
 //引入path模块,相对路径->绝对路径-->resolve
 let path = require('path');
 //引入
-let HtmlWebpackPlugin = require('html-webpack-plugin')
+let HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
@@ -22,5 +22,12 @@ module.exports = {
     output: {
         filename: "bundle.js", //打包后的文件名
         path: path.resolve(__dirname, 'dist')
-    }
+    },
+    plugins: [  //数组放着所有的webpack插件
+        new HtmlWebpackPlugin({
+            template: "./template.html",
+            filename: "./index.html",
+        })
+
+    ]
 };

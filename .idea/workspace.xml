@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e18d0900-88d1-4d4b-8108-2d8331d76b14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo02/a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,19 +26,26 @@
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
                   <first_editor relative-caret-position="26">
-                    <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                    <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
                   </first_editor>
                   <second_editor />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/demo02/webpack.config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="33">
-                  <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="52" />
+                <state relative-caret-position="403">
+                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/demo02/dist/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-104" />
               </provider>
             </entry>
           </file>
@@ -107,8 +111,8 @@
         <option value="$PROJECT_DIR$/demo02/a.js" />
         <option value="$PROJECT_DIR$/demo02/main.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/demo02/package.json" />
         <option value="$PROJECT_DIR$/demo02/dist/index.html" />
+        <option value="$PROJECT_DIR$/demo02/package.json" />
         <option value="$PROJECT_DIR$/demo02/webpack.config.js" />
       </list>
     </option>
@@ -163,7 +167,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -198,31 +202,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551488155822</updated>
-      <workItem from="1551488161087" duration="4001000" />
+      <workItem from="1551488161087" duration="7539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4001000" />
+    <option name="totallyTimeSpent" value="7539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="444" y="243" width="240" height="474" id="Project" order="0" sideWeight="0.5898567" visible="true" weight="0.12592202" />
+      <window_info active="true" content_ui="combo" x="444" y="243" width="240" height="474" id="Project" order="0" sideWeight="0.5898567" visible="true" weight="0.12592202" />
       <window_info id="Structure" order="1" sideWeight="0.5119306" side_tool="true" weight="0.103793465" />
       <window_info id="Favorites" order="2" sideWeight="0.41014332" side_tool="true" weight="0.103793465" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31361607" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32850778" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4979798" weight="0.31991526" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4979798" visible="true" weight="0.2544643" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4979798" visible="true" weight="0.33482143" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020202" side_tool="true" weight="0.29609543" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -291,13 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo02/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo02/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -321,19 +318,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo02/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="26">
+            <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo02/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo02/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo02/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104" />
       </provider>
     </entry>
   </component>
