@@ -31,16 +31,25 @@ module.exports = {
             //TODO: 从下往上执行
             //css-loader ->接续@import这种语法
             //style-loader ->把css插入到head
+            //less-loader ->把less转换为css
             {
                 test: /\.css$/,
                 use: [
                     {
                         loader: "style-loader",
                     },  //可以写成对象
-                    'css-loader']
+                    'css-loader'
+                ]
             },
+            {
+                test: /\.less$/,
+                use: [
+                    "style-loader",
+                    'css-loader',
+                    'less-loader'
+                ]
+            }
         ]
-
     }
 
 };

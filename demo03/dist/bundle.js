@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!./src/index..less":
+/*!********************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!./src/index..less ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body,\\nhtml {\\n  width: 80%;\\n  height: 80%;\\n  border: 2px solid black;\\n  border-radius: 100px;\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/index..less?../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "../node_modules/css-loader/dist/cjs.js!./src/a.css":
 /*!**********************************************************!*\
   !*** ../node_modules/css-loader/dist/cjs.js!./src/a.css ***!
@@ -153,6 +164,17 @@ eval("/**\r\n * @author: LYLG_zkx\r\n * @Email: 347487522@qq.com\r\n * @date: 20
 
 /***/ }),
 
+/***/ "./src/index..less":
+/*!*************************!*\
+  !*** ./src/index..less ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/less-loader/dist/cjs.js!./index..less */ \"../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!./src/index..less\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"../node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/index..less?");
+
+/***/ }),
+
 /***/ "./src/index.css":
 /*!***********************!*\
   !*** ./src/index.css ***!
@@ -171,7 +193,7 @@ eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dis
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/**\r\n * @author: LYLG_zkx\r\n * @Email: 347487522@qq.com\r\n * @date: 2019/3/2 11:41\r\n * @IDE: WebStorm\r\n */\r\n\r\nlet str = __webpack_require__(/*! ./a */ \"./src/a.js\");\r\n\r\n__webpack_require__(/*! ./index.css */ \"./src/index.css\");\r\n\r\nconsole.log(str);\r\nconsole.log('hello');\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("/**\r\n * @author: LYLG_zkx\r\n * @Email: 347487522@qq.com\r\n * @date: 2019/3/2 11:41\r\n * @IDE: WebStorm\r\n */\r\n\r\nlet str = __webpack_require__(/*! ./a */ \"./src/a.js\");\r\n\r\n__webpack_require__(/*! ./index.css */ \"./src/index.css\");\r\n\r\n__webpack_require__(/*! ./index..less */ \"./src/index..less\");\r\n\r\nconsole.log(str);\r\nconsole.log('hello');\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ })
 
