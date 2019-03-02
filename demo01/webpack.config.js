@@ -8,10 +8,10 @@
 let path = require('path');
 
 module.exports = {
-    mode: "production",//模式,两种: production,development
+    mode: "development",//模式,两种: production,development
     entry: './main.js',//入口
     output: {
         filename: "bundle.js", //打包后的文件名
         path: path.resolve(__dirname,'dist')
     }
-}
+};

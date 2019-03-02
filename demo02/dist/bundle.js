@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("/**\r\n * @author: LYLG_zkx\r\n * @Email: 347487522@qq.com\r\n * @date: 2019/3/2 9:06\r\n * @IDE: WebStorm\r\n */\r\n\r\nmodule.exports = 'this is node code';\n\n//# sourceURL=webpack:///./a.js?");
+eval("/**\r\n * @author: LYLG_zkx\r\n * @Email: 347487522@qq.com\r\n * @date: 2019/3/2 9:29\r\n * @IDE: WebStorm\r\n */\r\n\r\nmodule.exports = 'demo02';\n\n//# sourceURL=webpack:///./a.js?");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("/**\r\n * @author: LYLG_zkx\r\n * @Email: 347487522@qq.com\r\n * @date: 20
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/**\r\n * @author: LYLG_zkx\r\n * @Email: 347487522@qq.com\r\n * @date: 2019/3/2 9:05\r\n * @IDE: WebStorm\r\n */\r\nlet str = __webpack_require__(/*! ./a.js */ \"./a.js\");\r\nconsole.log(str);\r\nconsole.log('hello');\n\n//# sourceURL=webpack:///./main.js?");
+eval("/**\r\n * @author: LYLG_zkx\r\n * @Email: 347487522@qq.com\r\n * @date: 2019/3/2 9:29\r\n * @IDE: WebStorm\r\n */\r\n\r\nlet str = __webpack_require__(/*! ./a.js */ \"./a.js\");\r\n\r\nconsole.log(str);\r\nconsole.log('hello');\n\n//# sourceURL=webpack:///./main.js?");
 
 /***/ })
 
